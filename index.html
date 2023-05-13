@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/styleIndex.css">
+    <title>Encrypter</title>
+</head>
+<body>
+    <div class="every">
+        <div class="area">
+            <textarea name="text" id="text" cols="30" rows="10" class="text" placeholder="Enter the text"></textarea>
+        </div>
+    <div class="terms">
+        <p>Only lowercase letters and no accents</p>
+    </div>
+    <div class="buttons">
+        <button class="btnEncrypt" type="button" onclick="Encrypt()">Encrypt</button>
+        <button class="btnDecrypt" type="button" onclick="Decrypt()">Decrypt</button>
+    </div>
+    <div class="result">
+        <img src="./imgs/buscar.png" alt="" id="im">
+        <div class="messenge">
+            <h2 id="messengeTittle" >No message was found</h2>
+            <p id="paragraph">Enter the text you want to encrypt or decrypt.</p>
+            <!-- <textarea name="messe" id="messe" cols="30" rows="10" class="messe"></textarea> -->
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./js/jsIndex.js"></script>
+</html>
