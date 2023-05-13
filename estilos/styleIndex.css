@@ -80,6 +80,7 @@
 }
 
 .btnDecrypt{
+    margin-left: 3%;
     align-items: center;
     justify-content: center;
     padding: 2%;
