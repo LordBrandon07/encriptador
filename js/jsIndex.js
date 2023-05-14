@@ -14,9 +14,9 @@ function Encrypt() {
         document.getElementById('text').value = ciphertext;
         tittlemessage.textContent = 'Successfully encrypted text';
         paragraph.textContent = '';
-        mun.src = '../imgs/encrip.png'
+        mun.src = '../encriptador/imgs/encrip.png'
     } else {
-        mun.src = '../imgs/buscar.png';
+        mun.src = '../encriptador/imgs/buscar.png';
         tittlemessage.textContent = 'No message was found';
         paragraph.textContent = 'Enter the text you want to encrypt or decrypt.';
         swal('😱😰', 'You have not entered the text', 'warning')
@@ -39,9 +39,9 @@ function Decrypt(){
         document.getElementById('text').value = ciphertext;
         tittlemessage.textContent = 'Successfully decrypted text';
         paragraph.textContent = '';
-        mun.src = '../imgs/desc.png'
+        mun.src = '../encriptador/imgs/desc.png'
     } else {
-        mun.src = '../imgs/buscar.png';
+        mun.src = '../encriptador/imgs/buscar.png';
         tittlemessage.textContent = 'No message was found';
         paragraph.textContent = 'Enter the text you want to encrypt or decrypt.';
         swal('😱😰', 'You have not entered the text', 'warning')
