@@ -102,6 +102,10 @@
     left: 50%;
 }
 
+.btncopy{
+    opacity: 40%;
+}
+
 .btnEncrypt:hover,
 .btnDecrypt:hover{
     margin: 0.3%;
