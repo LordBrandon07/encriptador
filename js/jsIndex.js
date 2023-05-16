@@ -47,3 +47,10 @@ function Decrypt(){
         swal('😱😰', 'You have not entered the text', 'warning')
     }      
 }
+
+function copy(){
+    let texto = document.getElementById('text');
+    texto.select();
+    texto.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+}

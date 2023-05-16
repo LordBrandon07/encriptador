@@ -93,7 +93,13 @@
     font-size: 22px;
     line-height: 19px;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.btncopy{
+    position: absolute;
+    top: 17%;
+    left: 50%;
 }
 
 .btnEncrypt:hover,
@@ -210,6 +216,12 @@
 
     .btnDecrypt:hover{
         margin-left: 3%;
+    }
+
+    .btncopy{
+        position: absolute;
+        top: 2%;
+        left: 85%;
     }
 
     .result{
