@@ -3,11 +3,15 @@
     padding: 0;
 }
 
+body{
+    background-color: #E5E5E5;;
+    transition: all 1.5s ease;
+}
+
 .every {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #E5E5E5;;
 }
 
 .text{
@@ -171,6 +175,24 @@
     color: black;
 }
 
+#toggle{
+    display: none;
+}
+
+#label_toggle{
+    position: absolute;
+    top: 8%;
+    left: 86%;
+    font-size: 3em;
+    color: #710d0a;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
 @media (max-width: 57.5em){
     .every{
         display: flex;
@@ -252,5 +274,11 @@
         top: 0;
         display: none;
         visibility: hidden;
+    }
+
+    #label_toggle{
+        top: 81%;
+        left: 80%;
+        font-size: 2em;
     }
 }
